@@ -107,6 +107,10 @@
 		9A26C8DB1F87B01700367599 /* DataApproximator+N.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A26C8DA1F87B01700367599 /* DataApproximator+N.swift */; };
 		9C91C151608E2D6E19B1EAD1 /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F099502DA50C56204E7B744 /* Range.swift */; };
 		9F760570BCECB0BF5727AF90 /* BarLineChartViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C6D3723C4E001B119CA0C8 /* BarLineChartViewBase.swift */; };
+		A1317645292C356E00C6ED10 /* AreaFillFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1317644292C356E00C6ED10 /* AreaFillFormatter.swift */; };
+		A1317647292C358900C6ED10 /* CustomCombinedChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1317646292C358900C6ED10 /* CustomCombinedChartView.swift */; };
+		A1317649292C35A500C6ED10 /* CustomCombinedChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1317648292C35A500C6ED10 /* CustomCombinedChartRenderer.swift */; };
+		A131764B292C35AD00C6ED10 /* CustomLineChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A131764A292C35AD00C6ED10 /* CustomLineChartRenderer.swift */; };
 		A40ACF0CCE96EEE104B0463D /* ValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAA8AA30C377D54D22A577A /* ValueFormatter.swift */; };
 		A692D8BDE42717F69DB790BE /* HorizontalBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6021C9E424C36116AEA78CC9 /* HorizontalBarChartView.swift */; };
 		AEE9C4E4AC02B8FB3CD21975 /* ZoomViewJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3A4F5987E58F3E5BE855F9 /* ZoomViewJob.swift */; };
@@ -275,6 +279,10 @@
 		9D7184C8A5A60A3522AB9B05 /* BarChartDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartDataProvider.swift; path = Source/Charts/Interfaces/BarChartDataProvider.swift; sourceTree = "<group>"; };
 		9DCD13D558BA177D5952AD66 /* PieChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartView.swift; path = Source/Charts/Charts/PieChartView.swift; sourceTree = "<group>"; };
 		9E7C673B9ED4340F550A9283 /* LegendEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LegendEntry.swift; path = Source/Charts/Components/LegendEntry.swift; sourceTree = "<group>"; };
+		A1317644292C356E00C6ED10 /* AreaFillFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AreaFillFormatter.swift; path = Source/Charts/Formatters/AreaFillFormatter.swift; sourceTree = "<group>"; };
+		A1317646292C358900C6ED10 /* CustomCombinedChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomCombinedChartView.swift; path = Source/Charts/Charts/CustomCombinedChartView.swift; sourceTree = "<group>"; };
+		A1317648292C35A500C6ED10 /* CustomCombinedChartRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomCombinedChartRenderer.swift; path = Source/Charts/Renderers/CustomCombinedChartRenderer.swift; sourceTree = "<group>"; };
+		A131764A292C35AD00C6ED10 /* CustomLineChartRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomLineChartRenderer.swift; path = Source/Charts/Renderers/CustomLineChartRenderer.swift; sourceTree = "<group>"; };
 		A140F644332704916947B58C /* CombinedChartDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombinedChartDataProvider.swift; path = Source/Charts/Interfaces/CombinedChartDataProvider.swift; sourceTree = "<group>"; };
 		A4FB5E3761EF8B4D1E1E1014 /* PieChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/PieChartDataSet.swift; sourceTree = "<group>"; };
 		A5649B272BF3EBFC8A1EF0C1 /* BarLineScatterCandleBubbleChartDataSetProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarLineScatterCandleBubbleChartDataSetProtocol.swift; path = Source/Charts/Data/Interfaces/BarLineScatterCandleBubbleChartDataSetProtocol.swift; sourceTree = "<group>"; };
@@ -419,8 +427,10 @@
 				2194AA554712E6BA2677F114 /* BubbleChartRenderer.swift */,
 				BD5C6D20243EC2F19069AACD /* CandleStickChartRenderer.swift */,
 				52265C1B343CCC41AF2300E3 /* CombinedChartRenderer.swift */,
+				A1317648292C35A500C6ED10 /* CustomCombinedChartRenderer.swift */,
 				539382766378B702660FDFB2 /* HorizontalBarChartRenderer.swift */,
 				0DABDBBCCE6B3620C967F04A /* LineChartRenderer.swift */,
+				A131764A292C35AD00C6ED10 /* CustomLineChartRenderer.swift */,
 				105FFC9D3773A9C7A60A897F /* LineRadarRenderer.swift */,
 				923206233CA89FD03565FF87 /* LineScatterCandleRadarRenderer.swift */,
 				46D8013D44629521B1746364 /* PieChartRenderer.swift */,
@@ -548,6 +558,7 @@
 				6A4770E0F75EFFC30707A7C8 /* DefaultAxisValueFormatter.swift */,
 				D6C1BEFDF17404666C7B6054 /* DefaultFillFormatter.swift */,
 				107D8F8163EE54D6D9E916B0 /* DefaultValueFormatter.swift */,
+				A1317644292C356E00C6ED10 /* AreaFillFormatter.swift */,
 				0BD9DF16AF59680A3BB49452 /* AxisValueFormatter.swift */,
 				818AC6B12505B7C0A53D62F9 /* FillFormatter.swift */,
 				10DD0A02E3CF611BD11EBA9B /* IndexAxisValueFormatter.swift */,
@@ -575,6 +586,7 @@
 				BA1A58428DC4780BAB4EAADC /* CandleStickChartView.swift */,
 				30EFAD7920F76360ADB3B5F5 /* ChartViewBase.swift */,
 				11EF1FE22549E885C8F40738 /* CombinedChartView.swift */,
+				A1317646292C358900C6ED10 /* CustomCombinedChartView.swift */,
 				6021C9E424C36116AEA78CC9 /* HorizontalBarChartView.swift */,
 				0619A877C69A95ECCC440A44 /* LineChartView.swift */,
 				9DCD13D558BA177D5952AD66 /* PieChartView.swift */,
@@ -899,6 +911,7 @@
 				C2EFB4EC8C97FA9987F1B50D /* RadarChartDataEntry.swift in Sources */,
 				221CA2922588FCBC00C2DD1E /* Sequence+KeyPath.swift in Sources */,
 				E3B28EA1E21279DF3889BCE8 /* RadarChartDataSet.swift in Sources */,
+				A131764B292C35AD00C6ED10 /* CustomLineChartRenderer.swift in Sources */,
 				9A26C8DB1F87B01700367599 /* DataApproximator+N.swift in Sources */,
 				2B791E64E7C4523B1A63F72A /* ScatterChartData.swift in Sources */,
 				EB56849433A76B08606B73EB /* ScatterChartDataSet.swift in Sources */,
@@ -911,6 +924,7 @@
 				1311BEC21E9CC264E971EFAF /* LineRadarChartDataSetProtocol.swift in Sources */,
 				146EE16342C2BADC92E45BF2 /* LineScatterCandleRadarChartDataSetProtocol.swift in Sources */,
 				FAAD9FF6565DED2652188584 /* PieChartDataSetProtocol.swift in Sources */,
+				A1317649292C35A500C6ED10 /* CustomCombinedChartRenderer.swift in Sources */,
 				83BBAF3EDC31FD452F8BF1DB /* RadarChartDataSetProtocol.swift in Sources */,
 				50476F8E6662CAFC1EFE0723 /* ScatterChartDataSetProtocol.swift in Sources */,
 				97E033CC0ABEF0F448DAFA8E /* DataApproximator.swift in Sources */,
@@ -956,6 +970,7 @@
 				05253AFC448C107DEF54C2FE /* CombinedChartRenderer.swift in Sources */,
 				F100D68395F169B93590FA96 /* HorizontalBarChartRenderer.swift in Sources */,
 				2B821AAC3EBD60A73EACBCE6 /* LegendRenderer.swift in Sources */,
+				A1317645292C356E00C6ED10 /* AreaFillFormatter.swift in Sources */,
 				5F96E95C7073D21EFE02BCF7 /* LineChartRenderer.swift in Sources */,
 				24151B0729D77251A8494D70 /* LineRadarRenderer.swift in Sources */,
 				B6DCC229615EFE706F64A37D /* LineScatterCandleRadarRenderer.swift in Sources */,
@@ -975,6 +990,7 @@
 				41BEBF8BDB9DC403B5697D67 /* XAxisRenderer.swift in Sources */,
 				2A94F1724FEA9E16A81A8E1F /* XAxisRendererHorizontalBarChart.swift in Sources */,
 				4FACC6FD308AFB231EB4A93D /* XAxisRendererRadarChart.swift in Sources */,
+				A1317647292C358900C6ED10 /* CustomCombinedChartView.swift in Sources */,
 				41B13F3179ACB5A3837C6E55 /* YAxisRenderer.swift in Sources */,
 				846AC09831FA93F66732591B /* YAxisRendererHorizontalBarChart.swift in Sources */,
 				11F68AA2EBF822D7208EE002 /* YAxisRendererRadarChart.swift in Sources */,
